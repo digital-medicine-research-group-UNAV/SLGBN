@@ -1,0 +1,5 @@
+A, linear
+B, linear
+C, nonlinear
+D, nonlinear
+E, linear
