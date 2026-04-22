@@ -4,14 +4,12 @@ This repository contains the code used for the development and experimental eval
 
 ## 🧠 Model Overview
 
-The **SLGBN model** extends Bayesian networks by:
+The **SLGBN model** extends Linear Gaussian Bayesian Networks by:
 
 - Allowing **mixed node types** (linear and nonlinear)  
 - Using **GAM + B-splines** for nonlinear dependencies  
 - Maintaining **Gaussian assumptions**  
-- Enabling efficient **structure learning via Hill-Climbing**
-
-This makes SLGBN suitable for modeling complex dependencies while preserving interpretability.
+- Enabling **structure learning via Hill-Climbing**
 
 ---
 
