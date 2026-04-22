@@ -14,6 +14,7 @@ This framework enables efficient modeling and structure learning in datasets wit
 
 ## 📁 Repository Structure
 
+```
 ├── output/            # Generated figures
 ├── results/           # Experimental results
 ├── synthetic_data/    # Scripts to generate synthetic networks
@@ -22,6 +23,7 @@ This framework enables efficient modeling and structure learning in datasets wit
 ├── experiments.py     # Runs the experiments from the paper
 ├── Auxiliar.py        # Auxiliary functions (metrics, structure learning utilities, etc.)
 ├── Figures.py         # Generates figures from stored results
+```
 
 ---
 
