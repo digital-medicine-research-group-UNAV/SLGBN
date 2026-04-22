@@ -29,7 +29,7 @@ This framework enables efficient modeling and structure learning in datasets wit
 
 ## ⚙️ Main Components
 
-### `greedy_hc_slgbn.py`
+#### `greedy_hc_slgbn.py`
 Implements the **Greedy Hill-Climbing (HC)** algorithm used for structure learning in SLGBNs.
 
 ### `experiments.py`
