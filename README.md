@@ -32,31 +32,31 @@ This framework enables efficient modeling and structure learning in datasets wit
 #### `greedy_hc_slgbn.py`
 Implements the **Greedy Hill-Climbing (HC)** algorithm used for structure learning in SLGBNs.
 
-### `experiments.py`
+#### `experiments.py`
 Runs all experiments reported in the paper. It:
 - Generates or loads data
 - Executes structure learning
 - Stores results in the `/results` directory
 
-### `Auxiliar.py`
+#### `Auxiliar.py`
 Contains helper functions, including:
 - Model evaluation metrics
 - Structural learning utilities
 - Other supporting computations
 
-### `Figures.py`
+#### `Figures.py`
 Generates all figures included in the paper using the results stored in `/results`.
 
-### `synthetic_data/`
+#### `synthetic_data/`
 Includes scripts to generate the synthetic Bayesian networks used in the experiments.
 
-### `results/`
+#### `results/`
 Stores outputs from experiments, including:
 - Log-likelihood values
 - Structural metrics
 - Intermediate results
 
-### `output/`
+#### `output/`
 Contains the figures generated from the experimental results.
 
 ---
