@@ -1,14 +1,17 @@
 # Semi-Linear Gaussian Bayesian Networks (SLGBN)
 
-This repository contains the code used for the development and experimental evaluation of the paper:
+This repository contains the code used for the development and experimental evaluation of the paper: **“Semi-Linear Gaussian Bayesian Networks”**
 
-**“Semi-Linear Gaussian Bayesian Networks”**
+## 🧠 Model Overview
 
-The proposed model, referred to as **SLGBN**, extends classical Bayesian networks by allowing two types of nodes:
-- **Linear Gaussian nodes**
-- **Nonlinear Gaussian nodes**, estimated using **Generalized Additive Models (GAM) with B-splines**
+The **SLGBN model** extends Bayesian networks by:
 
-This framework enables efficient modeling and structure learning in datasets with nonlinear Gaussian relationships.
+- Allowing **mixed node types** (linear and nonlinear)  
+- Using **GAM + B-splines** for nonlinear dependencies  
+- Maintaining **Gaussian assumptions**  
+- Enabling efficient **structure learning via Hill-Climbing**
+
+This makes SLGBN suitable for modeling complex dependencies while preserving interpretability.
 
 ---
 
@@ -78,24 +81,6 @@ Results will be stored in:
 
 - `/results` (raw outputs)
 - `/output` (figures)
-
-## 🧠 Model Overview
-
-The **SLGBN model** extends Bayesian networks by:
-
-- Allowing **mixed node types** (linear and nonlinear)  
-- Using **GAM + B-splines** for nonlinear dependencies  
-- Maintaining **Gaussian assumptions**  
-- Enabling efficient **structure learning via Hill-Climbing**
-
-This makes SLGBN suitable for modeling complex dependencies while preserving interpretability.
-
----
-
-## 📌 Notes
-
-- All experiments and figures in the paper can be reproduced using this repository.  
-- Synthetic datasets are generated via the scripts in `synthetic_data/`.
 
 ---
 
