@@ -38,13 +38,13 @@ Runs all experiments reported in the paper. It:
 - Executes structure learning
 - Stores results in the `/results` directory
 
-#### `Auxiliar.py`
+#### `auxiliar.py`
 Contains helper functions, including:
 - Model evaluation metrics
 - Structural learning utilities
 - Other supporting computations
 
-#### `Figures.py`
+#### `figures.py`
 Generates all figures included in the paper using the results stored in `/results`.
 
 #### `synthetic_data/`
@@ -54,10 +54,9 @@ Includes scripts to generate the synthetic Bayesian networks used in the experim
 Stores outputs from experiments, including:
 - Log-likelihood values
 - Structural metrics
-- Intermediate results
 
 #### `output/`
-Contains the figures generated from the experimental results.
+Contains the generated figures.
 
 ---
 
@@ -72,7 +71,7 @@ python experiments.py
 
 2. Generate the figures:
 ```bash
-python Figures.py
+python figures.py
 ```
 
 Results will be stored in:
