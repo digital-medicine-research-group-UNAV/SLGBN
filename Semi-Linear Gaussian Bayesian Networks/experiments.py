@@ -368,6 +368,6 @@ for graph, data_name, cpdag, types in models_graph:
 results_df = pd.DataFrame(results_typechange)
 
 # Guardar a CSV para análisis posterior
-results_df.to_csv("results/results_final.csv", index=False)
+results_df.to_csv("results/results.csv", index=False)
 
 print("Experiments finished.")
