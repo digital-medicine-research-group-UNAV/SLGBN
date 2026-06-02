@@ -23,7 +23,7 @@ The **SLGBN model** extends Linear Gaussian Bayesian Networks by:
 ├── greedy_hc_slgbn.py # Hill-Climbing algorithm for SLGBN structure learning
 ├── experiments.py     # Runs the experiments from the paper
 ├── auxiliar.py        # Auxiliary functions (metrics, structure learning utilities, etc.)
-├── figures.py         # Generates figures from stored results
+├── generate_plots.py         # Generates figures from stored results
 ```
 
 ---
