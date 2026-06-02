@@ -9,7 +9,7 @@ The **SLGBN model** extends Linear Gaussian Bayesian Networks by:
 - Allowing **mixed node types** (linear and nonlinear)  
 - Using **GAM + B-splines** for nonlinear dependencies  
 - Maintaining **Gaussian conditional distributions**  
-- Enabling **structure learning via tabú greedy hill-climbing**
+- Enabling **structure learning via tabu greedy hill-climbing**
 
 ---
 
