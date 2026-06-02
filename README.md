@@ -45,7 +45,7 @@ Contains helper functions, including:
 - Structural learning utilities
 - Other supporting functions
 
-#### `figures.py`
+#### `generate_plots.py`
 Generates all figures included in the paper using the results stored in `/results`.
 
 #### `synthetic_data/`
