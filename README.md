@@ -87,5 +87,5 @@ Results will be stored in:
 If you use this code, please cite:
 
 ```bash
-Semi-Linear Gaussian Bayesian Networks
+Oviedo-Madrid A, Morales-Otero M, González-Gomariz J, Armañanzas R (2026). Semi-Linear Gaussian Bayesian Networks: Enhancing Flexibility in Node Dependencies via penalized B-Splines [Preprint]. arXiv. https://arxiv.org/abs/2610.30838.
 ```
