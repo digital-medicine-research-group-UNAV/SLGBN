@@ -1,6 +1,6 @@
 # Semi-Linear Gaussian Bayesian Networks (SLGBN)
 
-This repository contains the code used for the development and experimental evaluation of the paper: **“Semi-Linear Gaussian Bayesian Networks”**
+This repository contains the code used for the development and experimental evaluation of the work: **Semi-Linear Gaussian Bayesian Networks: Enhancing Flexibility in Node Dependencies via penalized B-Splines**
 
 ## 🧠 Model Overview
 
